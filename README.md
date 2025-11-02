@@ -1,0 +1,61 @@
+# 🧠 Basic CRUD Application – ApexPlanet Internship (TASK-2)
+
+![Task Overview](./Screenshot%202025-11-02%20110948.png)
+
+---
+
+## 📘 Project Overview
+
+This project is a **Basic CRUD (Create, Read, Update, Delete)** web application built using **PHP** and **MySQL** as part of the **ApexPlanet Internship (Task-2)**.  
+It demonstrates how to build a simple, functional web app that allows users to manage student records securely.
+
+---
+
+## 🎯 Objectives
+- Develop a simple web application to perform **CRUD operations**.  
+- Implement **basic user authentication** (login and registration).  
+- Apply **secure coding practices** using prepared statements and validation.
+
+---
+
+## 🧩 Features
+✅ Add new students  
+✅ View student list  
+✅ Edit student details  
+✅ Delete a single student securely (prepared statements)  
+✅ Database connection with `config.php`  
+✅ Simple and clean UI using HTML, CSS (and optional Bootstrap)
+
+---
+
+## 🖼️ Screenshots
+
+### ➕ Add New Student
+![Add Student](./Screenshot%202025-11-02%20110512.png)
+
+### 📋 Student Records
+![Student Records](./Screenshot%202025-11-02%20110542.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. 🖥️ Install XAMPP
+- Download and install **[XAMPP](https://www.apachefriends.org/download.html)**.  
+- Start **Apache** and **MySQL** services.
+
+### 2. 🗄️ Database Setup
+Open [phpMyAdmin](http://localhost/phpmyadmin) and run:
+
+```sql
+CREATE DATABASE student_db;
+
+USE student_db;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(20),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
