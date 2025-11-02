@@ -1,6 +1,6 @@
 # 🧠 Basic CRUD Application – ApexPlanet Internship (TASK-2)
 
-![Task Overview](./Screenshot%202025-11-02%20110948.png)
+![Task Overview](.C:\xampp\htdocs\TASK-2/Screenshot%202025-11-02%20110948.png)
 
 ---
 
