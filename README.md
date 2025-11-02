@@ -56,7 +56,7 @@ CREATE TABLE students (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-📂 File Structure
+### 3. 📂 File Structure
 TASK-2/
 │
 ├── config.php          # Database connection
@@ -67,7 +67,7 @@ TASK-2/
 ├── style.css           # (Optional) Styling
 └── README.md           # Documentation
 
-🧠 Learning Outcomes
+### 🧠 Learning Outcomes
 
 Understanding CRUD operations in PHP
 
@@ -79,7 +79,7 @@ Designing a user-friendly form interface
 
 Managing sessions for authentication
 
-🧾 Deliverables
+### 🧾 Deliverables
 
 ✅ A fully functional CRUD application
 
@@ -89,7 +89,7 @@ Managing sessions for authentication
 
 ✅ Complete PHP source code
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Shaik Sahil
 Web Development Intern – ApexPlanet Software Pvt Ltd
