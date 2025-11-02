@@ -1,9 +1,5 @@
 # 🧠 Basic CRUD Application – ApexPlanet Internship (TASK-2)
 
-![Task Overview](.C:\xampp\htdocs\TASK-2/Screenshot%202025-11-02%20110948.png)
-
----
-
 ## 📘 Project Overview
 
 This project is a **Basic CRUD (Create, Read, Update, Delete)** web application built using **PHP** and **MySQL** as part of the **ApexPlanet Internship (Task-2)**.  
@@ -59,3 +55,41 @@ CREATE TABLE students (
     phone VARCHAR(20),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+📂 File Structure
+TASK-2/
+│
+├── config.php          # Database connection
+├── index.php           # Student list (Read)
+├── create.php          # Add student (Create)
+├── edit.php            # Update student (Update)
+├── delete.php          # Delete student (Delete)
+├── style.css           # (Optional) Styling
+└── README.md           # Documentation
+
+🧠 Learning Outcomes
+
+Understanding CRUD operations in PHP
+
+Using MySQL with mysqli and prepared statements
+
+Applying secure coding practices
+
+Designing a user-friendly form interface
+
+Managing sessions for authentication
+
+🧾 Deliverables
+
+✅ A fully functional CRUD application
+
+✅ User authentication module
+
+✅ Database schema documentation
+
+✅ Complete PHP source code
+
+👨‍💻 Author
+
+Shaik Sahil
+Web Development Intern – ApexPlanet Software Pvt Ltd
