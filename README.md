@@ -1,5 +1,7 @@
 # 🧠 Basic CRUD Application – ApexPlanet Internship (TASK-2)
 
+![Task Overview](./Screenshot%202025-11-02%20110948.png)
+
 ## 📘 Project Overview
 
 This project is a **Basic CRUD (Create, Read, Update, Delete)** web application built using **PHP** and **MySQL** as part of the **ApexPlanet Internship (Task-2)**.  
