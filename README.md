@@ -1,7 +1,5 @@
 # 🧠 Basic CRUD Application – ApexPlanet Internship (TASK-2)
 
-![Task Overview](./Screenshot%202025-11-02%20110948.png)
-
 ## 📘 Project Overview
 
 This project is a **Basic CRUD (Create, Read, Update, Delete)** web application built using **PHP** and **MySQL** as part of the **ApexPlanet Internship (Task-2)**.  
@@ -58,7 +56,7 @@ CREATE TABLE students (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-### 3. 📂 File Structure
+# 3. 📂 File Structure
 TASK-2/
 │
 ├── config.php          # Database connection
@@ -69,7 +67,7 @@ TASK-2/
 ├── style.css           # (Optional) Styling
 └── README.md           # Documentation
 
-### 🧠 Learning Outcomes
+# 🧠 Learning Outcomes
 
 Understanding CRUD operations in PHP
 
@@ -81,7 +79,7 @@ Designing a user-friendly form interface
 
 Managing sessions for authentication
 
-### 🧾 Deliverables
+# 🧾 Deliverables
 
 ✅ A fully functional CRUD application
 
